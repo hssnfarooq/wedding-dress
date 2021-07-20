@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./Images/favicon-masal.png"
+      type="image/gif"
+      sizes="32x32"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- TweenMax for slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <!-- LightBox-CSS -->
+    <link href="./CSS/lightbox.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!-- Insta-Feed -->
+    <script type="text/javascript">
+      window.PixleeAsyncInit = function () {
+        Pixlee.init({ apiKey: 'kSQIx04qVeVBrmRVt3VA' });
+        Pixlee.addSimpleWidget({ widgetId: '33688' });
+      };
+    </script>
+    <title>Masal - Home</title>
+  </head>
+  <body>
+    <!-- Pre-Loader -->
+    <div class="loader-container">
+      <div class="loader">
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__bar"></div>
+        <div class="loader__ball"></div>
+      </div>
+    </div>
+    <!-- Back to top button -->
+    <a id="button-top"></a>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="overlay has-fade"></div>
+      <div class="container">
+        <nav class="main-header">
+          <div class="brand-logo">
+            <a href="/"><img src="./Images/masal-brand.jpg" alt="Masal" /></a>
+          </div>
+          <div class="toggler-header hide-for-desktop">
+            <a id="btn-hamburger" href="#" class="header-hamburger open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <div class="registertion-btns">
+            <div class="button-pri login">
+              <a href="#">Login</a>
+            </div>
+            <div class="button-sec register">
+              <a href="#">Register</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="sub-header">
+        <div class="sub-menu container">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#">Collection</a>
+            </li>
+            <li>
+              <a href="#">Product</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+
+            <li>
+              <a href="#">Become a Retailer</a>
+            </li>
+            <li>
+              <a href="#">Where to Buy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-mobile-menu has-fade">
+        <a href="/">Home</a>
+        <a href="#">Collection</a>
+        <a href="#">Product</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Gallery</a>
+        <a href="#">Become a Retailer</a>
+        <a href="#">Where to Buy</a>
+        <div class="registertion-btns">
+          <div class="button-pri login">
+            <a href="#">Login</a>
+          </div>
+          <div class="button-sec register">
+            <a href="#">Register</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Headline -->
+    <div class="container">
+      <div class="masal-bio">
+        <p class="text-moving">
+          &#9830; Australian Fashion Designer
+          <span style="padding-left: 5rem"
+            >&#9830; Exclusive Wedding Dresses</span
+          >
+          <span style="padding-left: 5rem">
+            &#9830; Timeless Wedding Dresses
+          </span>
+        </p>
+      </div>
+    </div>
+    <!-- Image-Carousel -->
+
+    <main class="main-content">
+      <div class="container">
+        <section class="slideshow">
+          <div class="slideshow-inner">
+            <div class="slides">
+              <div class="slide is-active">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title"></div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                    <a href="#" class="bt">
+                      <span class="btn-inne"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="./Images/slide-1.jpg" alt="" class="image" />
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title"></div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                    <a href="#" class="bt">
+                      <span class="btn-inne"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="./Images/slide-a.jpg" alt="" class="image" />
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-content">
+                  <div class="caption">
+                    <div class="title"></div>
+                    <div class="text">
+                      <p></p>
+                    </div>
+                    <a href="#" class="bt">
+                      <span class="btn-inne"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="./Images/slide-e.jpg" alt="" class="image" />
+                </div>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="item is-active">
+                <span class="icon">1</span>
+              </div>
+              <div class="item">
+                <span class="icon">2</span>
+              </div>
+              <div class="item">
+                <span class="icon">3</span>
+              </div>
+            </div>
+            <!-- <div class="arrows">
+            <div class="arrow prev">
+              <span class="svg svg-arrow-left">
+                <svg
+                  version="1.1"
+                  id="svg4-Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="14px"
+                  height="26px"
+                  viewBox="0 0 14 26"
+                  enable-background="new 0 0 14 26"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"
+                  />
+                </svg>
+                <span class="alt sr-only"></span>
+              </span>
+            </div>
+            <div class="arrow next">
+              <span class="svg svg-arrow-right">
+                <svg
+                  version="1.1"
+                  id="svg5-Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="14px"
+                  height="26px"
+                  viewBox="0 0 14 26"
+                  enable-background="new 0 0 14 26"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"
+                  />
+                </svg>
+                <span class="alt sr-only"></span>
+              </span>
+            </div>
+          </div> -->
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Collection -->
+    <section class="collection">
+      <div class="container">
+        <h1>Collections</h1>
+        <div class="collection-cards">
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-1.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Calabro Couture</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-2.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Curvaceous Couture</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-cards">
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-3.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Label of Love</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-3-a.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Fairy Tale Story</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Products Section -->
+    <section class="latest-products">
+      <div class="container">
+        <h1>Latest Products</h1>
+        <div class="latest-products-cards">
+          <div style="margin-top: 0rem" class="latest-products-card">
+            <img src="Images/product-7.jpg" />
+            <div class="latest-products-info">
+              <h1>Calabro Couture</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+          <div style="margin-top: 0rem" class="latest-products-card">
+            <img src="Images/product-8.jpg" />
+            <div class="latest-products-info">
+              <h1>Label of Love</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+          <div style="margin-top: 0rem" class="latest-products-card">
+            <img src="Images/product-3.jpg" />
+            <div class="latest-products-info">
+              <h1>Fairy Tale Story</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="latest-products-card">
+            <img src="Images/product-4.jpg" />
+            <div class="latest-products-info">
+              <h1>Curvaceous Couture</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="latest-products-card">
+            <img src="Images/product-5.jpg" />
+            <div class="latest-products-info">
+              <h1>Calabro Couture</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="latest-products-card">
+            <img src="Images/product-6.jpg" />
+            <div class="latest-products-info">
+              <h1>Fairy Tale Story</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery-Spot -->
+    <section class="gallery-spot">
+      <div class="container">
+        <h1>Gallery</h1>
+        <div class="gallery">
+          <div class="gallery-item">
+            <a
+              href="./Images/gallery-1.jpg"
+              data-lightbox="masal-gallery"
+              alwaysShowNavOnTouchDevices="true"
+            >
+              <img class="gallery-image" src="./Images/gallery-1.jpg"
+            /></a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-2.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-2.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-3.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-3.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-4.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-4.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-5.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-5.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-7.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-7.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-8.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-8.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-9.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-9.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-10.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-10.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-10.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-11.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-12.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-12.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-13.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-13.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram-Feed-Section -->
+    <section class="insta-feed-section">
+      <div class="container">
+        <h1>Instagram Feed</h1>
+        <div class="pixlee-content">
+          <div id="pixlee_container"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-parent">
+            <div class="footer-item-2">
+              <div class="footer-menu-heading">
+                <h2>Customer Care</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Become a Retailer</a></li>
+                  <li><a href="#">Where to Buy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-2">
+              <div class="footer-menu-heading">
+                <h2>Featured</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#">Collection</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-1">
+              <div class="footer-brand-logo">
+                <img src="./Images/masal-brand.jpg" alt="Masal" />
+              </div>
+              <div class="footer-social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copright-section">
+        <div class="container">
+          <p>© 2021 MASAL All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom-JS -->
+    <script src="./JS/script.js"></script>
+    <!-- Lightbox-JS -->
+    <script src="./JS/lightbox.js"></script>
+    <!-- Insta-Feed JS-->
+    <script src="//instafeed.assets.pxlecdn.com/assets/pixlee_widget_1_0_0.js"></script>
+    <script>
+      $(window).on('load', function () {
+        setTimeout(() => {
+          document.querySelector('.loader-container').style.display = 'none';
+          document.querySelector('body').style.overflowY = 'visible';
+        }, 5000);
+      });
+    </script>
+  </body>
+</html>
