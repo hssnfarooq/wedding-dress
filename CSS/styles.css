@@ -1376,6 +1376,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
   .searchContainer {
     margin-right: 0rem;
     margin-top: 2rem;
+    width: 100%;
   }
 
   .header {
