@@ -61,7 +61,7 @@ maximum-scale=1.0, user-scalable=no"
       <div class="container">
         <nav class="main-header">
           <div class="brand-logo">
-            <a href="/"><img src="./Images/masal-brand.jpg" alt="Masal" /></a>
+            <a href="/"><img src="./Images/masal-logo.png" alt="Masal" /></a>
           </div>
           <div class="toggler-header hide-for-desktop">
             <a id="btn-hamburger" href="#" class="header-hamburger open">
@@ -70,12 +70,24 @@ maximum-scale=1.0, user-scalable=no"
               <span></span>
             </a>
           </div>
+
           <div class="registertion-btns">
+            <div class="searchContainer">
+              <input
+                class="searchBox"
+                type="search"
+                name="search"
+                placeholder="Search"
+              />
+              <div class="search-btn">
+                <i class="fa fa-search searchIcon"></i>
+              </div>
+            </div>
             <div class="button-pri login">
-              <a href="#">Login</a>
+              <a href="./login.html">Login</a>
             </div>
             <div class="button-sec register">
-              <a href="#">Register</a>
+              <a href="./register.html" id="register">Register</a>
             </div>
           </div>
         </nav>
@@ -87,11 +99,11 @@ maximum-scale=1.0, user-scalable=no"
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="#">Collection</a>
+              <a href="./collection.html">Collection</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#">Product</a>
-            </li>
+            </li> -->
             <li>
               <a href="#">Contact Us</a>
             </li>
@@ -116,18 +128,31 @@ maximum-scale=1.0, user-scalable=no"
       <div class="header-mobile-menu has-fade">
         <a href="/">Home</a>
         <a href="#">Collection</a>
-        <a href="#">Product</a>
+        <!-- <a href="#">Product</a> -->
         <a href="#">Contact Us</a>
         <a href="#">About Us</a>
         <a href="#">Gallery</a>
         <a href="#">Become a Retailer</a>
         <a href="#">Where to Buy</a>
+
+        <div class="searchContainer">
+          <input
+            class="searchBox"
+            type="search"
+            name="search"
+            placeholder="Search"
+          />
+          <div class="search-btn">
+            <i class="fa fa-search searchIcon"></i>
+          </div>
+        </div>
+
         <div class="registertion-btns">
           <div class="button-pri login">
-            <a href="#">Login</a>
+            <a href="./login.html">Login</a>
           </div>
           <div class="button-sec register">
-            <a href="#">Register</a>
+            <a href="./register.html" id="register">Register</a>
           </div>
         </div>
       </div>
@@ -293,9 +318,7 @@ maximum-scale=1.0, user-scalable=no"
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="collection-cards">
           <div class="collection-card">
             <div class="collection-card-image">
               <img src="./Images/collection-3.jpg" alt="" />
@@ -319,7 +342,33 @@ maximum-scale=1.0, user-scalable=no"
               </div>
             </div>
           </div>
+
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-4-a.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Label of Love</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection-card">
+            <div class="collection-card-image">
+              <img src="./Images/collection-1-a.jpg" alt="" />
+            </div>
+            <div class="collection-card-text">
+              <h5>Calabro Couture</h5>
+              <div class="btn-card">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div class="collection-cards"></div>
       </div>
     </section>
 
@@ -390,6 +439,30 @@ maximum-scale=1.0, user-scalable=no"
             <img src="Images/product-6.jpg" />
             <div class="latest-products-info">
               <h1>Fairy Tale Story</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="latest-products-card">
+            <img src="Images/gallery-1.jpg" />
+            <div class="latest-products-info">
+              <h1>Calabro Couture</h1>
+              <p>
+                Lorem Ipsum is simply dummy text from the printing and
+                typeseting industry
+              </p>
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="latest-products-card">
+            <img src="Images/gallery-11.jpg" />
+            <div class="latest-products-info">
+              <h1>Calabro Couture</h1>
               <p>
                 Lorem Ipsum is simply dummy text from the printing and
                 typeseting industry
@@ -516,6 +589,20 @@ maximum-scale=1.0, user-scalable=no"
 
             <div class="footer-item-2">
               <div class="footer-menu-heading">
+                <h2>Customer Care</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Become a Retailer</a></li>
+                  <li><a href="#">Where to Buy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-2 mrg-top-mob">
+              <div class="footer-menu-heading">
                 <h2>Featured</h2>
               </div>
               <div class="footer-menu-links">
@@ -530,7 +617,7 @@ maximum-scale=1.0, user-scalable=no"
 
             <div class="footer-item-1">
               <div class="footer-brand-logo">
-                <img src="./Images/masal-brand.jpg" alt="Masal" />
+                <img src="./Images/masal-logo.png" alt="Masal" />
               </div>
               <div class="footer-social-media">
                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -560,7 +647,7 @@ maximum-scale=1.0, user-scalable=no"
         setTimeout(() => {
           document.querySelector('.loader-container').style.display = 'none';
           document.querySelector('body').style.overflowY = 'visible';
-        }, 5000);
+        }, 3000);
       });
     </script>
   </body>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./Images/favicon-masal.png"
+      type="image/gif"
+      sizes="32x32"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6255250c8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/product.css" />
+    <title>Masal - Product</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="overlay has-fade"></div>
+      <div class="container">
+        <nav class="main-header">
+          <div class="brand-logo">
+            <a href="/"><img src="./Images/masal-logo.png" alt="Masal" /></a>
+          </div>
+          <div class="toggler-header hide-for-desktop">
+            <a id="btn-hamburger" href="#" class="header-hamburger open">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+
+          <div class="registertion-btns">
+            <div class="searchContainer">
+              <input
+                class="searchBox"
+                type="search"
+                name="search"
+                placeholder="Search"
+              />
+              <div class="search-btn">
+                <i class="fa fa-search searchIcon"></i>
+              </div>
+            </div>
+            <div class="button-pri login">
+              <a href="./login.html">Login</a>
+            </div>
+            <div class="button-sec register">
+              <a href="./register.html" id="register">Register</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="sub-header">
+        <div class="sub-menu container">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="./collection.html">Collection</a>
+            </li>
+            <!-- <li>
+              <a href="#">Product</a>
+            </li> -->
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+
+            <li>
+              <a href="#">Gallery</a>
+            </li>
+
+            <li>
+              <a href="#">Become a Retailer</a>
+            </li>
+            <li>
+              <a href="#">Where to Buy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-mobile-menu has-fade">
+        <a href="/">Home</a>
+        <a href="#">Collection</a>
+        <!-- <a href="#">Product</a> -->
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Gallery</a>
+        <a href="#">Become a Retailer</a>
+        <a href="#">Where to Buy</a>
+
+        <div class="searchContainer">
+          <input
+            class="searchBox"
+            type="search"
+            name="search"
+            placeholder="Search"
+          />
+          <div class="search-btn">
+            <i class="fa fa-search searchIcon"></i>
+          </div>
+        </div>
+
+        <div class="registertion-btns">
+          <div class="button-pri login">
+            <a href="./login.html">Login</a>
+          </div>
+          <div class="button-sec register">
+            <a href="./register.html" id="register">Register</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Product-Navigation -->
+    <section class="navigation-product">
+      <div class="container">
+        <div class="navigation-product-content">
+          <ul class="navigation-product-breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li>
+              <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </li>
+            <li><a href="/">Colllection</a></li>
+            <li>
+              <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </li>
+            <li>Product-1</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-section">
+      <div class="container">
+        <div class="product">
+          <div class="product-images">
+            <div class="main-img">
+              <img src="./Images/product-1-b.jpg" class="pro-img" alt="" />
+            </div>
+            <div class="thumb-img">
+              <div class="box" onclick="changeImage(this)">
+                <img src="./Images/product-1-a.jpg" alt="" />
+              </div>
+              <div class="box" onclick="changeImage(this)">
+                <img src="./Images/product-1-c.jpg" alt="" />
+              </div>
+              <div class="box" onclick="changeImage(this)">
+                <img src="./Images/product-1-d.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product-content">
+            <h2>Calabro Couture</h2>
+            <div class="product-description">
+              <p>
+                The perfect-fitting and new, Women's Statement Rib Dress from EN
+                ES is a must-have addition to your wardrobe. Features include
+                premium cotton construction and a sleek design. Stand out from
+                the crowd and cop yours today at Culture Kings while stock
+                lasts.
+              </p>
+              <ul>
+                <li>- 100% cotton</li>
+                <li>- Elasticated ribbed design throughout</li>
+                <li>
+                  - Tightened stitching down the sides creating a ruffle effect
+                </li>
+                <li>- EN ES embroidered on the back</li>
+                <li>- Colour: Ivory</li>
+              </ul>
+            </div>
+            <div class="product-retailer-btn">
+              <a href="#" class="retailer-link">Become a Retailer</a>
+            </div>
+            <div class="product-social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- You-May-Like -->
+    <section class="you-may-like">
+      <div class="container">
+        <h2>You May Also Like</h2>
+        <div class="you-may-like-flex">
+          <div class="yml-card">
+            <div class="yml-image">
+              <img src="./Images/C-6.jpg" alt="" />
+            </div>
+            <div class="yml-title">
+              <h4>Fairy Tale Story</h4>
+            </div>
+          </div>
+
+          <div class="yml-card">
+            <div class="yml-image">
+              <img src="./Images/C-5.jpg" alt="" />
+            </div>
+            <div class="yml-title">
+              <h4>Curvaceous Couture</h4>
+            </div>
+          </div>
+
+          <div class="yml-card">
+            <div class="yml-image">
+              <img src="./Images/C-4.jpg" alt="" />
+            </div>
+            <div class="yml-title">
+              <h4>Label of Love</h4>
+            </div>
+          </div>
+
+          <div class="yml-card">
+            <div class="yml-image">
+              <img src="./Images/C-1.jpg" alt="" />
+            </div>
+            <div class="yml-title">
+              <h4>Calabro Couture</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="footer-parent">
+            <div class="footer-item-2">
+              <div class="footer-menu-heading">
+                <h2>Customer Care</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Become a Retailer</a></li>
+                  <li><a href="#">Where to Buy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-2">
+              <div class="footer-menu-heading">
+                <h2>Customer Care</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Become a Retailer</a></li>
+                  <li><a href="#">Where to Buy</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-2 mrg-top-mob">
+              <div class="footer-menu-heading">
+                <h2>Featured</h2>
+              </div>
+              <div class="footer-menu-links">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#">Collection</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-item-1">
+              <div class="footer-brand-logo">
+                <img src="./Images/masal-logo.png" alt="Masal" />
+              </div>
+              <div class="footer-social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copright-section">
+        <div class="container">
+          <p>© 2021 MASAL All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom-JS -->
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
