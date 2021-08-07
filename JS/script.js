@@ -414,10 +414,10 @@ btn12.onclick = function () {
 };
 
 // When the user clicks on <span> (x), close the modal
-// closeModal.onclick = function () {
-//   modal.style.display = 'none';
-//   body1.style.overflowY = 'auto';
-// };
+closeModal.onclick = function () {
+  modal.style.display = 'none';
+  body1.style.overflowY = 'auto';
+};
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
