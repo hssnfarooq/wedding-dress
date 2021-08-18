@@ -26,10 +26,13 @@ maximum-scale=1.0, user-scalable=no"
       referrerpolicy="no-referrer"
     ></script>
 
+    <!-- LightBox-CSS -->
+    <link href="./CSS/lightbox.min.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./CSS/styles.css" />
-    <link rel="stylesheet" href="./CSS/register.css" />
-    <title>Masal - Create New Customer Account</title>
+    <link rel="stylesheet" href="./CSS/gallery.css" />
+
+    <title>Masal - Gallery</title>
   </head>
   <body>
     <!-- Header -->
@@ -104,7 +107,7 @@ maximum-scale=1.0, user-scalable=no"
 
       <div class="header-mobile-menu has-fade">
         <a href="/">Home</a>
-        <a href="#">Collection</a>
+        <a href="./collection.html">Collection</a>
         <!-- <a href="#">Product</a> -->
         <a href="#">Contact Us</a>
         <a href="#">About Us</a>
@@ -135,74 +138,137 @@ maximum-scale=1.0, user-scalable=no"
       </div>
     </header>
 
-    <!-- Create An Account -->
-    <section class="register-section">
-      <div class="register-form">
-        <h2>Create New Account</h2>
-        <form>
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="fname">First Name</label>
-              <input type="text" name="fname" id="fname" required />
-            </div>
-            <div class="register-form-control">
-              <label for="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" required />
-            </div>
+    <!-- Navigation-Display -->
+    <section class="navigation-display">
+      <div class="container">
+        <div class="navigation-display-content">
+          <ul class="navigation-breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li>
+              <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </li>
+            <li>Gallery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="gallery-page">
+        <h2>Gallery</h2>
+      </div>
+    </div>
+
+    <!-- Main-Gallery -->
+    <section class="gallery-spot main-gallery">
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery-item">
+            <a
+              href="./Images/gallery-1.jpg"
+              data-lightbox="masal-gallery"
+              alwaysShowNavOnTouchDevices="true"
+            >
+              <img class="gallery-image" src="./Images/gallery-1.jpg"
+            /></a>
           </div>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="fname">First Name</label>
-              <input type="text" name="fname" id="fname" required />
-            </div>
-            <div class="register-form-control">
-              <label for="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" required />
-            </div>
+          <div class="gallery-item">
+            <a href="./Images/gallery-2.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-2.jpg" />
+            </a>
           </div>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="email">Email ID</label>
-              <input type="email" name="email" id="email" required />
-            </div>
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
+          <div class="gallery-item">
+            <a href="./Images/gallery-3.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-3.jpg" />
+            </a>
           </div>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="email">Email ID</label>
-              <input type="email" name="email" id="email" required />
-            </div>
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
+          <div class="gallery-item">
+            <a href="./Images/gallery-8.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-8.jpg" />
+            </a>
           </div>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-            <div class="register-form-control">
-              <label for="confirm-password">Confirm Password</label>
-              <input
-                type="password"
-                name="confirm-password"
-                id="confirm-password"
-                required
-              />
-            </div>
+          <div class="gallery-item">
+            <a href="./Images/gallery-9.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-9.jpg" />
+            </a>
           </div>
-          <div class="create-account-btn">
-            <button type="submit">Create an Account</button>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-10.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-10.jpg" />
+            </a>
           </div>
-        </form>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-10.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-11.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-12.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-12.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-13.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-13.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/C-2.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/C-2.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/C-3.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/C-3.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/C-4.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/C-4.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-4.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-4.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-5.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-5.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/gallery-7.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/gallery-7.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/C-5.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/C-5.jpg" />
+            </a>
+          </div>
+
+          <div class="gallery-item">
+            <a href="./Images/C-6.jpg" data-lightbox="masal-gallery">
+              <img class="gallery-image" src="./Images/C-6.jpg" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -276,5 +342,16 @@ maximum-scale=1.0, user-scalable=no"
 
     <!-- Custom-JS -->
     <script src="./JS/script.js"></script>
+    <!-- Lightbox-JS -->
+    <script src="./JS/lightbox.js"></script>
+
+    <script>
+      $(window).on('load', function () {
+        setTimeout(() => {
+          document.querySelector('.loader-container').style.display = 'none';
+          document.querySelector('body').style.overflowY = 'visible';
+        }, 3000);
+      });
+    </script>
   </body>
 </html>

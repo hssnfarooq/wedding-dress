@@ -28,8 +28,9 @@ maximum-scale=1.0, user-scalable=no"
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./CSS/styles.css" />
-    <link rel="stylesheet" href="./CSS/register.css" />
-    <title>Masal - Create New Customer Account</title>
+    <link rel="stylesheet" href="./CSS/contact-us.css" />
+
+    <title>Masal - Contact Us</title>
   </head>
   <body>
     <!-- Header -->
@@ -104,7 +105,7 @@ maximum-scale=1.0, user-scalable=no"
 
       <div class="header-mobile-menu has-fade">
         <a href="/">Home</a>
-        <a href="#">Collection</a>
+        <a href="./collection.html">Collection</a>
         <!-- <a href="#">Product</a> -->
         <a href="#">Contact Us</a>
         <a href="#">About Us</a>
@@ -135,74 +136,69 @@ maximum-scale=1.0, user-scalable=no"
       </div>
     </header>
 
-    <!-- Create An Account -->
-    <section class="register-section">
-      <div class="register-form">
-        <h2>Create New Account</h2>
-        <form>
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="fname">First Name</label>
-              <input type="text" name="fname" id="fname" required />
-            </div>
-            <div class="register-form-control">
-              <label for="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" required />
-            </div>
-          </div>
+    <!-- Navigation-Display -->
+    <section class="navigation-display">
+      <div class="container">
+        <div class="navigation-display-content">
+          <ul class="navigation-breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li>
+              <span><i class="fas fa-long-arrow-alt-right"></i></span>
+            </li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="fname">First Name</label>
-              <input type="text" name="fname" id="fname" required />
-            </div>
-            <div class="register-form-control">
-              <label for="lname">Last Name</label>
-              <input type="text" name="lname" id="lname" required />
-            </div>
-          </div>
+    <div class="container">
+      <div class="contact-page">
+        <h2>Contact Us</h2>
+      </div>
+    </div>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="email">Email ID</label>
-              <input type="email" name="email" id="email" required />
-            </div>
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-          </div>
+    <!-- Contact-Us -->
+    <section class="contact-us-section">
+      <div class="container">
+        <div class="contact">
+          <h3 class="contact-type">Telephone</h3>
+          <p class="contact-description">
+            <span>+92300-1234567</span> Monday to Saturday from 07:00 AM to
+            12:00 AM PKT.
+          </p>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="email">Email ID</label>
-              <input type="email" name="email" id="email" required />
-            </div>
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-          </div>
+          <h3 class="contact-type">Whatsapp</h3>
+          <p class="contact-description">+92300-1234567</p>
 
-          <div class="register-form-group">
-            <div class="register-form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" required />
-            </div>
-            <div class="register-form-control">
-              <label for="confirm-password">Confirm Password</label>
-              <input
-                type="password"
-                name="confirm-password"
-                id="confirm-password"
-                required
-              />
-            </div>
-          </div>
-          <div class="create-account-btn">
-            <button type="submit">Create an Account</button>
-          </div>
-        </form>
+          <h3 class="contact-type">Email</h3>
+          <p class="contact-description">
+            <span>online@masal.com</span> Email us for enquiries about online
+            purchase & stores.
+          </p>
+
+          <h3 class="contact-type">Address</h3>
+          <p class="contact-description">
+            5508 Wells Dr Parlin, NJ 08859 United States
+          </p>
+
+          <h3 class="contact-type">Social Media</h3>
+          <ul class="social-links">
+            <li>
+              <a class="fb" href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a class="insta" href="#"
+                ><i class="fab fa-instagram" id="insta"></i
+              ></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a class="pinterest" href="#"><i class="fab fa-pinterest"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -276,5 +272,14 @@ maximum-scale=1.0, user-scalable=no"
 
     <!-- Custom-JS -->
     <script src="./JS/script.js"></script>
+
+    <script>
+      $(window).on('load', function () {
+        setTimeout(() => {
+          document.querySelector('.loader-container').style.display = 'none';
+          document.querySelector('body').style.overflowY = 'visible';
+        }, 3000);
+      });
+    </script>
   </body>
 </html>

@@ -96,6 +96,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .header .main-header .registertion-btns .login {
@@ -215,7 +216,7 @@ a:hover {
 }
 
 .header .header-mobile-menu .registertion-btns .register {
-  margin-right: 2rem;
+  margin-right: 0rem;
   width: 120px;
 }
 
@@ -1316,18 +1317,20 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 /* Search-Box */
 .searchContainer {
-  display: inline-flex;
-  flex: 1 1 40rem;
+  display: flex;
+  flex: 1;
+  width: 100%;
   position: relative;
   border: 1.5px solid #d8d8d8;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-right: 2rem;
+  margin: 0rem 2rem;
 }
 
 .searchContainer .searchIcon {
   padding: 1.2rem;
   cursor: pointer;
+  background-color: #fff;
 }
 
 .searchContainer .searchBox {
@@ -1335,9 +1338,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
   padding: 0.8rem;
   font-family: 'Nunito', sans-serif;
   font-size: 1.6rem;
-  flex: 1;
   outline: none;
-  width: 30rem;
+  width: 100%;
 }
 
 /* Media Queries */
@@ -1375,6 +1377,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
   .searchContainer {
     margin-right: 0rem;
+    margin-left: 0rem;
     margin-top: 2rem;
     width: 100%;
   }

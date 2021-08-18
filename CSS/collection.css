@@ -121,7 +121,7 @@ html {
 
 .filter-collection-sides .filter-sidebar {
   border: 2px solid #d8d8d8;
-  width: 28rem;
+  width: 28.5rem;
 }
 
 .filter-collection-sides .filter-sidebar .main-accordion .accordion {
@@ -228,7 +228,7 @@ html {
 .collection-photos-sidebar
   .collection-photos-parent
   .collection-card-photos-item {
-  width: 28rem;
+  width: 28.5rem;
   height: 48rem;
   overflow: hidden;
   margin-bottom: 3.5rem;
@@ -239,7 +239,7 @@ html {
   .collection-card-photos-item
   .collection-image {
   position: relative;
-  width: 28.8rem;
+  width: 28.5rem;
   height: 43.5rem;
 }
 
@@ -248,7 +248,7 @@ html {
   .collection-card-photos-item
   .collection-image
   img {
-  width: 27.8rem;
+  width: 28.5rem;
   height: 43.5rem;
 }
 
@@ -269,7 +269,7 @@ html {
   .collection-image-description {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   margin: 0.35rem auto;
@@ -286,6 +286,7 @@ html {
   padding: 0.5rem;
   color: #777;
   font-weight: 700;
+  margin-right: 10rem;
 }
 
 .heart-react {
@@ -738,7 +739,7 @@ html {
     .collection-card-photos-item
     .collection-image {
     position: relative;
-    width: 34.8rem;
+    width: 35rem;
     height: 47.5rem;
   }
 
@@ -747,7 +748,7 @@ html {
     .collection-card-photos-item
     .collection-image
     img {
-    width: 34.8rem;
+    width: 35rem;
     height: 47.5rem;
   }
 }
@@ -760,7 +761,7 @@ html {
   .collection-photos-sidebar
     .collection-photos-parent
     .collection-card-photos-item {
-    width: 28rem;
+    width: 32rem;
     height: 48rem;
   }
 
@@ -769,7 +770,7 @@ html {
     .collection-card-photos-item
     .collection-image {
     position: relative;
-    width: 28.8rem;
+    width: 32rem;
     height: 43.5rem;
   }
 
@@ -778,7 +779,7 @@ html {
     .collection-card-photos-item
     .collection-image
     img {
-    width: 27.8rem;
+    width: 32rem;
     height: 43.5rem;
   }
 }
@@ -858,6 +859,7 @@ html {
     .collection-image-description
     .collection-image-name {
     font-size: 1.5rem;
+    margin-right: 0;
   }
 
   .like-icon {
@@ -880,15 +882,16 @@ html {
   .collection-photos-sidebar
     .collection-photos-parent
     .collection-card-photos-item {
-    width: 95%;
-    height: 40rem;
+    width: 32rem;
+    height: 42rem;
+    position: relative;
   }
 
   .collection-photos-sidebar
     .collection-photos-parent
     .collection-card-photos-item
     .collection-image {
-    width: 100%;
+    width: 32rem;
     text-align: center;
   }
 
@@ -897,17 +900,24 @@ html {
     .collection-card-photos-item
     .collection-image
     img {
-    width: 100%;
-    height: 35rem;
+    width: 32rem;
+    height: 38rem;
   }
 
   .collection-photos-sidebar
     .collection-photos-parent
     .collection-card-photos-item
     .collection-image-description {
-    margin-top: 6.5rem;
+    position: absolute;
+    bottom: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .heart-react {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 14.5rem;
   }
 }

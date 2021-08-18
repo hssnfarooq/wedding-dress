@@ -22,7 +22,7 @@ html {
 .register-section .register-form {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
-  width: 60rem;
+  width: 80rem;
   padding: 3.5rem 5rem;
 }
 
@@ -34,8 +34,19 @@ html {
   padding-bottom: 3.5rem;
 }
 
+.register-section .register-form form .register-form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .register-section .register-form form .register-form-control {
-  margin-bottom: 0.85rem;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.register-section .register-form form .register-form-control:last-child {
+  margin-left: 1.5rem;
 }
 
 .register-section .register-form form .register-form-control label {
@@ -79,8 +90,8 @@ html {
 
 @media (max-width: 620px) {
   .register-section .register-form {
-    width: 45rem;
-    padding: 3.5rem;
+    max-width: 100%;
+    padding: 1.5rem;
   }
 }
 
@@ -96,5 +107,14 @@ html {
 
   .register-section .register-form form .create-account-btn button {
     width: 100%;
+  }
+
+  .register-section .register-form form .register-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-section .register-form form .register-form-control:last-child {
+    margin-left: 0rem;
   }
 }
