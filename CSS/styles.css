@@ -168,6 +168,10 @@ a:hover {
   background-color: #003392;
 }
 
+.current-page {
+  background-color: #003392;
+}
+
 .header .sub-header .sub-menu ul li a {
   color: #fafafa;
 }
@@ -411,7 +415,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: calc(100vh - 200px);
+  height: 600px;
   z-index: 1;
 }
 .slideshow .slideshow-inner {
@@ -592,7 +596,7 @@ a:hover {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  padding: 1rem 0rem 4rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 
 .collection .collection-cards {
@@ -606,7 +610,7 @@ a:hover {
 .collection .collection-cards .collection-card {
   width: 40rem;
   height: 62.5rem;
-  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
   transition: all 300ms ease-in-out;
 }
 
@@ -659,7 +663,7 @@ a:hover {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  padding: 1rem 0rem 4rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 
 .latest-products .latest-products-cards {
@@ -1451,6 +1455,16 @@ Remove or comment-out the code block below to see how the browser will fall-back
   }
 }
 
+@media (max-height: 700px) {
+  .slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 495px;
+    z-index: 1;
+  }
+}
+
 @media (max-width: 560px) {
   .footer .footer-content .footer-parent .footer-item-1 {
     margin-top: 3.5rem;
@@ -1484,6 +1498,22 @@ Remove or comment-out the code block below to see how the browser will fall-back
     .footer-menu-heading
     h2 {
     font-size: 1.8rem;
+  }
+
+  .insta-feed-section h1 {
+    font-size: 3.5rem;
+  }
+
+  .collection h1 {
+    font-size: 3.5rem;
+  }
+
+  .latest-products h1 {
+    font-size: 3.5rem;
+  }
+
+  .gallery h1 {
+    font-size: 3.5rem;
   }
 
   .insta-feed-section h1 {

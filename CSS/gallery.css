@@ -47,15 +47,16 @@ html {
 }
 
 .gallery-page h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 0.85rem 2rem;
+  text-align: center;
 }
 
 .main-gallery {
-  margin-top: 0;
+  margin: 2.5rem 0rem;
 }
 
 @media (max-width: 500px) {

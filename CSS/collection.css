@@ -54,12 +54,13 @@ html {
   margin: 2.5rem 0;
 }
 
-.collection-types h2 {
-  font-size: 2rem;
+.collection-page h2 {
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   padding: 0.85rem 2rem;
+  text-align: center;
 }
 
 .collection-types .collection-types-parent {
