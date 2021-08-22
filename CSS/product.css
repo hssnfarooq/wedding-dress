@@ -66,7 +66,7 @@ html {
 .product-section .product {
   max-width: 100%;
   padding: 3.5rem 1.5rem;
-  margin: 0 2rem;
+  margin: 0 auto;
   background: #fafafa;
   border: 1.5px solid #d8d8d8;
   display: grid;
@@ -388,6 +388,7 @@ html {
 @media (max-width: 535px) {
   .main-img {
     flex-direction: column;
+    align-items: center;
   }
 
   .product-section .product .product-images .thumb-img {
