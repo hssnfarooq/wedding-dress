@@ -64,7 +64,7 @@ html {
 }
 
 .product-section .product {
-  max-width: 100%;
+  max-width: 98%;
   padding: 3.5rem 1.5rem;
   margin: 0 auto;
   background: #fafafa;
@@ -80,10 +80,14 @@ html {
 
 .product-section .product .product-images .main-img .pro-img {
   display: block;
-  width: 35.5rem !important;
-  height: 50rem;
+  height: 55rem;
   border-radius: 0.5rem;
 }
+
+.product-section .product .product-images .main-img img {
+  width: 45rem;
+}
+
 .product-section .product .product-images .thumb-img {
   display: flex;
   flex-direction: column;
@@ -195,7 +199,7 @@ html {
 }
 
 .yml-section .yml-slider {
-  width: 100%;
+  width: 98%;
   height: 45rem;
   position: relative;
   margin: auto;
@@ -357,7 +361,7 @@ html {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 895px) {
   .product-section .product {
     grid-template-columns: 1fr;
     width: 70rem;
